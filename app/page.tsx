@@ -9,8 +9,9 @@ export default function Home() {
       <div className="bg-[#1DA1F2] text-white py-2 overflow-hidden">
         <div className="animate-scroll whitespace-nowrap">
           <span className="inline-block px-8">
-            $UTYA's green! • $UTYA shines, profits climb! • Green scenes, $UTYA dreams! • With $UTYA's rise, profits fly
-            skies! • Green glows, $UTYA grows! • Blockchain boost, $UTYA's roost • #DYOR - Duck Your Own Research •
+            $SHAGGY's prowling! • $SHAGGY climbs, profits shine! • Feline scenes, $SHAGGY dreams! • With $SHAGGY's leap,
+            profits sweep high! • Cat glows, $SHAGGY grows! • Blockchain boost, $SHAGGY's roost • #DYOR - Do Your Own
+            Research •
           </span>
         </div>
       </div>
@@ -19,11 +20,11 @@ export default function Home() {
       <section className="bg-[#1DA1F2] text-white min-h-screen flex items-center justify-center px-4">
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
-            <h1 className="text-6xl lg:text-7xl font-bold mb-8 text-balance">UTYA Token</h1>
+            <h1 className="text-6xl lg:text-7xl font-bold mb-8 text-balance">Shaggy Token</h1>
             <p className="text-xl lg:text-2xl mb-12 leading-relaxed text-balance">
-              $UTYA is more than just a memecoin – it's a community-driven movement dedicated to spreading joy and
-              positivity through the iconic Telegram Duck Emoji. $UTYA is seen by millions of people every year on
-              Telegram, and so we thought it deserved a community to call its own on TON.
+              $SHAGGY is more than just a memecoin – it's a community-driven movement dedicated to spreading joy and
+              positivity through the iconic Shaggy the Cat meme. $SHAGGY represents the playful and mysterious nature of
+              cats, and we thought it deserved a community to call its own on Base network.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button className="bg-black text-white hover:bg-gray-800 px-8 py-6 text-lg font-semibold rounded-full">
@@ -38,41 +39,41 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center">
-            <div className="text-[300px] leading-none">🦆</div>
+            <img src="/shaggy-cat.png" alt="Shaggy the Cat" className="w-80 h-80 lg:w-96 lg:h-96 object-contain" />
           </div>
         </div>
       </section>
 
-      {/* Why SUTYA Section */}
+      {/* Why Shaggy Section */}
       <section className="py-20 px-4 bg-white">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-5xl lg:text-6xl font-bold text-[#1DA1F2] mb-8 text-balance">Why $UTYA?</h2>
+          <h2 className="text-5xl lg:text-6xl font-bold text-[#1DA1F2] mb-8 text-balance">Why $SHAGGY?</h2>
           <p className="text-xl text-gray-700 mb-16 max-w-4xl mx-auto text-balance">
-            Because we believe in the power of the $UTYA duck emoji to bring people together and create meaningful
-            connections. Whether you're a seasoned crypto investor or new to the world of digital assets, UTYA offers an
-            exciting opportunity to be part of something special.
+            Because we believe in the power of Shaggy the cat to bring people together and create meaningful
+            connections. Whether you're a seasoned crypto investor or new to the world of digital assets, SHAGGY offers
+            an exciting opportunity to be part of something special.
           </p>
 
           <div className="grid md:grid-cols-3 gap-12 mb-16">
             <div className="text-center">
-              <div className="text-8xl mb-6">🕵️‍♂️🦆</div>
+              <div className="text-8xl mb-6">🕵️‍♂️🐱</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Contract Renounced</h3>
               <p className="text-gray-600 text-balance">
-                Utya's making a bold move! He's renounced the contract, setting a new course for unstoppable autonomy!
+                Shaggy's making a bold move! He's renounced the contract, setting a new course for unstoppable autonomy!
               </p>
             </div>
             <div className="text-center">
-              <div className="text-8xl mb-6">🔥🦆</div>
+              <div className="text-8xl mb-6">🔥🐱</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Liquidity Burned</h3>
               <p className="text-gray-600 text-balance">
-                Feeling the heat? Utya's fired up and burning through all the liquidity, making waves in the market!
+                Feeling the heat? Shaggy's fired up and burning through all the liquidity, making waves in the market!
               </p>
             </div>
             <div className="text-center">
-              <div className="text-8xl mb-6">🔍🦆</div>
+              <div className="text-8xl mb-6">🔍🐱</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Zero Taxes</h3>
               <p className="text-gray-600 text-balance">
-                Utya tried to find taxes, but couldn't succeed. Maybe you will have better luck.
+                Shaggy tried to find taxes, but couldn't succeed. Maybe you will have better luck.
               </p>
             </div>
           </div>
@@ -88,7 +89,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-5xl lg:text-6xl font-bold mb-8 text-balance">How to Buy?</h2>
           <p className="text-xl mb-16 text-balance">
-            Here you will find instructions on how to purchase the $UTYA token.
+            Here you will find instructions on how to purchase the $SHAGGY token.
           </p>
 
           <div className="grid md:grid-cols-4 gap-8">
@@ -97,16 +98,16 @@ export default function Home() {
                 <div className="text-[#1DA1F2] text-2xl">💳</div>
               </div>
               <h3 className="text-xl font-bold mb-4">Create a Wallet</h3>
-              <p className="text-sm opacity-90 text-balance">Download Tonkeeper wallet extension.</p>
+              <p className="text-sm opacity-90 text-balance">Download MetaMask wallet extension.</p>
             </div>
 
             <div className="text-center">
               <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                 <div className="text-[#1DA1F2] text-2xl">💎</div>
               </div>
-              <h3 className="text-xl font-bold mb-4">Get Some TON</h3>
+              <h3 className="text-xl font-bold mb-4">Get Some ETH</h3>
               <p className="text-sm opacity-90 text-balance">
-                To buy $UTYA, first fund your TON wallet. You can buy TON on Bybit, OKX or other exchanges.
+                To buy $SHAGGY, first fund your ETH wallet. You can buy ETH on Coinbase, Binance or other exchanges.
               </p>
             </div>
 
@@ -114,20 +115,20 @@ export default function Home() {
               <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                 <div className="text-[#1DA1F2] text-2xl">🔄</div>
               </div>
-              <h3 className="text-xl font-bold mb-4">Go to Ston.fi</h3>
+              <h3 className="text-xl font-bold mb-4">Go to Uniswap</h3>
               <p className="text-sm opacity-90 text-balance">
-                Visit Ston.fi, connect your wallet, and paste the $UTYA token address. Select $UTYA, confirm, and sign
-                when prompted by Tonkeeper.
+                Visit Uniswap, connect your wallet, and paste the $SHAGGY token address. Select $SHAGGY, confirm, and
+                sign when prompted by MetaMask.
               </p>
             </div>
 
             <div className="text-center">
               <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
-                <div className="text-[#1DA1F2] text-2xl">🦆</div>
+                <div className="text-[#1DA1F2] text-2xl">🐱</div>
               </div>
-              <h3 className="text-xl font-bold mb-4">Swap TON to $UTYA</h3>
+              <h3 className="text-xl font-bold mb-4">Swap ETH to $SHAGGY</h3>
               <p className="text-sm opacity-90 text-balance">
-                Swap TON for $UTYA with zero taxes. Slippage settings may be required during market volatility.
+                Swap ETH for $SHAGGY with zero taxes. Slippage settings may be required during market volatility.
               </p>
             </div>
           </div>
@@ -168,29 +169,29 @@ export default function Home() {
           <Accordion type="single" collapsible className="space-y-4">
             <AccordionItem value="item-1" className="border-white/20">
               <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline py-6">
-                What is the origin story of the $UTYA?
+                What is the origin story of $SHAGGY?
               </AccordionTrigger>
               <AccordionContent className="text-white/90 pb-6">
-                $UTYA originated from the beloved Telegram duck emoji that has brought joy to millions of users
-                worldwide. Our community decided to create a token that represents this iconic symbol of happiness and
-                connection.
+                $SHAGGY originated from the beloved Shaggy the Cat meme that has brought joy to millions of users
+                worldwide. Our community decided to create a token that represents this iconic symbol of feline mystery
+                and internet culture.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-2" className="border-white/20">
               <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline py-6">
-                Why choose $UTYA?
+                Why choose $SHAGGY?
               </AccordionTrigger>
               <AccordionContent className="text-white/90 pb-6">
-                $UTYA offers a unique combination of community-driven development, zero taxes, burned liquidity, and a
+                $SHAGGY offers a unique combination of community-driven development, zero taxes, burned liquidity, and a
                 renounced contract. It's more than just a token - it's a movement that brings people together through
-                the power of the duck emoji.
+                the power of Shaggy the cat meme.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-3" className="border-white/20">
               <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline py-6">
-                What is the contract address for $UTYA?
+                What is the contract address for $SHAGGY?
               </AccordionTrigger>
               <AccordionContent className="text-white/90 pb-6">
                 The contract address will be provided once the token is officially launched. Please follow our official
@@ -200,7 +201,7 @@ export default function Home() {
 
             <AccordionItem value="item-4" className="border-white/20">
               <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline py-6">
-                What is the maximum supply of $UTYA tokens?
+                What is the maximum supply of $SHAGGY tokens?
               </AccordionTrigger>
               <AccordionContent className="text-white/90 pb-6">
                 The maximum supply details will be announced in our official documentation. Stay tuned to our social
@@ -213,8 +214,8 @@ export default function Home() {
                 How can I help?
               </AccordionTrigger>
               <AccordionContent className="text-white/90 pb-6">
-                You can help by joining our community, spreading the word about $UTYA, participating in discussions, and
-                following our social media channels. Every duck counts in building our community!
+                You can help by joining our community, spreading the word about $SHAGGY, participating in discussions,
+                and following our social media channels. Every cat counts in building our community!
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -225,7 +226,7 @@ export default function Home() {
       <footer className="bg-white py-12 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-center mb-8">
-            <div className="text-6xl">🦆</div>
+            <img src="/shaggy-cat.png" alt="Shaggy the Cat" className="w-16 h-16 object-contain" />
           </div>
           <div className="flex justify-center space-x-8 mb-8 text-gray-600">
             <a href="#" className="hover:text-[#1DA1F2] transition-colors">
@@ -244,7 +245,7 @@ export default function Home() {
               FAQ
             </a>
           </div>
-          <div className="text-center text-gray-500">© 2024 UTYA Token. All Rights Reserved</div>
+          <div className="text-center text-gray-500">© 2024 SHAGGY Token. All Rights Reserved</div>
         </div>
       </footer>
     </div>
